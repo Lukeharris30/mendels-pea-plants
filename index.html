@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --card-background: hsla(60, 3%, 17%, .7);
+            --card-padding: 1rem;
+            --card-radius: 5px;
+            --card-border-color: hsl(60, 3%, 27%);
+            --card-tag-color: hsl(270deg 100% 71%);
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: sans-serif;
+            background: hsl(56, 50%, 5%);
+            color: #fff;
+        }
+        #app{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            /* border: 1px solid #fff; */
+        }
+        img {
+            max-width: 20px;
+        }
+        .container {
+            width: 90vw;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- <pea-flower></pea-flower> -->
+    <main class="container">
+        <h1>Mendel's Pea Experiments</h1>
+        <div id="app"></div>
+    </main>
+    <script type="module" src="index.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
